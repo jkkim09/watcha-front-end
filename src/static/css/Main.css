@@ -1,0 +1,124 @@
+#main_container {
+    width: 100%;
+    height: 100%;
+    background-color: aquamarine;
+}
+
+#main_game_container {
+    width: 100%;
+    height: calc(100% - 50px);
+    height: -moz-calc(100% - 50px);
+    height: -webkit-calc(100% - 50px);
+}
+
+#main_game_board {
+    position: relative;
+    width: calc(100% - 300px);
+    width: -moz-calc(100% - 300px);
+    width: -webkit-calc(100% - 300px);
+    height: 100%;
+    float: left;
+}
+
+#game_info_area {
+    position: absolute;
+    width: 120px;
+    height: 150px;
+    left: 50%;
+    top: 10px;
+}
+
+#game_info_area > div:nth-child(1) {
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 65px;
+    font-weight: bold;
+}
+
+#game_info_area > div:nth-child(2) {
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 7.5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#main_game_board > table {
+    width: 100%;
+    height: 100%;
+}
+
+#main_game_board > table > tbody > tr > td:nth-child(2) {
+    width: 220px;
+}
+
+#game_user_area {
+    width: 100%;
+    height: 100%;
+}
+
+#com_item.game_item1, .game_item1 {
+    width: 100%;
+    height: 33.3%;
+    background: url("../images/item1.png") no-repeat;
+    background-size: initial;
+    background-position: center;
+    cursor: pointer;
+    border-radius: 11.5px;
+}
+
+.game_item1:hover {
+    background-color: blue;
+}
+
+#com_item.game_item2, .game_item2 {
+    width: 100%;
+    height: 33.3%;
+    background: url("../images/item2.png") no-repeat;
+    background-size: initial;
+    background-position: center;
+    cursor: pointer;
+    border-radius: 11.5px;
+}
+
+.game_item2:hover {
+    background-color: blue;
+}
+
+#com_item.game_item3, .game_item3 {
+    width: 100%;
+    height: 33.3%;
+    background: url("../images/item3.png") no-repeat;
+    background-size: initial;
+    background-position: center;
+    cursor: pointer;
+    border-radius: 11.5px;
+}
+
+.game_item3:hover {
+    background-color: blue;
+}
+
+#vs_item {
+    width: 100%;
+    height: 100%;
+    background: url("../images/vs.png") no-repeat;
+    background-size: contain;
+    background-position: center;  
+}
+
+#com_item {
+    width: 100%;
+    height: 100%; 
+    background: url("../images/com.png") no-repeat;
+    background-size: contain;
+    background-position: center; 
+}
+
